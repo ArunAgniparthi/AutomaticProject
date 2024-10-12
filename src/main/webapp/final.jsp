@@ -17,13 +17,14 @@
 	if(reg.equals(username) && pass.equals(password))
 	{
 		pw.print("<div align='center'>");
-		pw.print("<h2 style='color:green'>Registered Successfully...</h2></div>");
+		pw.print("<h2 style='color:green'>Successfully Registered...</h2>");
+		pw.print("Welcome to this page</div>");
 	}
 	else
 	{
 		pw.print("<div align='center'>");
-		pw.print("<h2 style='color:red'>Invalid Details<br/><br/>");
-		pw.print("<a href='index.jsp'>Form</a></h2></div>");
+		pw.print("<h2 style='color:red'>Invalid Username or Password<br/><br/>");
+		pw.print("<a href='index.jsp'>Registration page</a></h2></div>");
 	}
 %>
 

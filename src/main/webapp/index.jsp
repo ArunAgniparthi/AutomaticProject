@@ -5,15 +5,23 @@
 	<form method="post" action="final.jsp">
 		<table>
 			<tr>
-				<td>Enter Name:</td>
+				<td>First Name:</td>
 				<td><input type="text"/></td>
 			</tr>
 			<tr>
-				<td>Enter RegNo:</td>
+				<td>Last Name:</td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td>Registration No:</td>
 				<td><input type="text" name="reg"/></td>
 			</tr>
 			<tr>
-				<td>Select Branch:</td>
+				<td>Email:</td>
+				<td><input type="email"/></td>
+			</tr>
+			<tr>
+				<td>Branch:</td>
 				<td>
 					<select>
 						<option>select</option>
@@ -25,11 +33,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td>Enter Email:</td>
-				<td><input type="email"/></td>
-			</tr>
-			<tr>
-				<td>Enter Password:</td>
+				<td>Password:</td>
 				<td><input type="password" name="password"/></td>
 			</tr>
 		</table>
